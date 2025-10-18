@@ -1,0 +1,39 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ .parent{
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.parent .child{
+    width: 100px;
+    height: 100px;
+}
+.parent #child1{
+    background-color: green;
+    order: 2;
+}
+.parent #child2{
+    background-color: red;
+    order: 3;
+}
+.parent #child3{
+    background-color: blue;
+    order: 1;
+} 
+*/
+ ul{
+    display: flex;
+    gap: 40px;
+} 
